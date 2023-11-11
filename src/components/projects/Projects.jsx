@@ -66,8 +66,8 @@ const projects = [
     title: "New Portfolio",
     description: "My new portfolio website built using React",
     links: {
-      github: "https://github.com/ayushjha119/Portfolio2.0",
-      live: "http://ayushjha.tech/",
+      github: "https://github.com/ayushjha119/NewPortfolio",
+      live: "https://ayushjha.tech/",
     },
     image: newPortfolio,
   },
