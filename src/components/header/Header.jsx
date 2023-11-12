@@ -34,21 +34,6 @@ const Header = () => {
               </a>
             </li>
 
-            <li className="nav__item">
-              <a
-                href="#about"
-                onClick={() => {
-                  setActiveNav("#about");
-                  setMenu(!menu);
-                }}
-                className={
-                  activeNav === "#about" ? "nav__link active-link" : "nav__link"
-                }
-              >
-                <i className="uil uil-user nav__icon"></i> About
-              </a>
-            </li>
-
             {/* <li className="nav__item">
               <a
                 href="#about"
@@ -63,6 +48,23 @@ const Header = () => {
                 <i className="uil uil-user nav__icon"></i> About
               </a>
             </li> */}
+
+            <li className="nav__item">
+              <a
+                href="https://blog.ayushjha.tech/"
+                onClick={() => {
+                  setActiveNav("#about");
+                  setMenu(!menu);
+                }}
+                className={
+                  activeNav === "#about" ? "nav__link active-link" : "nav__link"
+                }
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="uil uil-user nav__icon"></i> Blogs
+              </a>
+            </li>
 
             <li className="nav__item">
               <a
