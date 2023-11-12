@@ -21,7 +21,11 @@ const About = () => {
             Redis, and Next.js, aiming to deliver innovative and engaging online
             experiences.
           </p>
-          <a download="" href={Resume} className="button button--flex">
+          <a
+            download="Ayush_Jha_Resume.pdf"
+            href={Resume}
+            className="button button--flex"
+          >
             Download CV
             <svg
               class="button__icon"
