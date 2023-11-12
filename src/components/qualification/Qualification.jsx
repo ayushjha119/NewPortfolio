@@ -240,14 +240,14 @@ const Qualification = () => {
                 <span
                   className={
                     pageY === true
-                      ? "qualification__rounder qualification__rounder2"
+                      ? "qualification__rounder qualification__rounder4"
                       : "qualification__rounder"
                   }
                 ></span>
                 <span
                   className={
                     pageY === true
-                      ? "qualification__line qualification__line2"
+                      ? "qualification__line qualification__line4"
                       : "qualification__line"
                   }
                 ></span>

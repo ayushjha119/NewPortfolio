@@ -74,7 +74,7 @@
 }
 
 .qualification__rounder1 {
-  transition: all 0.9s ease;
+  transition: all 0.7s ease;
   height: 13px;
 }
 
@@ -88,12 +88,12 @@
 } */
 
 .qualification__rounder4 {
-  transition: all 0.9s ease 0.7s;
+  transition: all 0.5s ease 0.5s;
   height: 13px;
 }
 
 .qualification__rounder5 {
-  transition: all 0.7s ease 2.3s;
+  transition: all 0.5s ease 1.4s;
   height: 13px;
 }
 
@@ -112,7 +112,7 @@
   height: 100%;
 }
 
-.qualification__line2 {
+/* .qualification__line2 {
   transition: all 0.4s ease 0.7s;
   height: 100%;
 }
@@ -120,15 +120,15 @@
 .qualification__line3 {
   transition: all 0.7s ease 1.2s;
   height: 100%;
-}
+} */
 
 .qualification__line4 {
-  transition: all 0.7s ease 1.9s;
+  transition: all 0.7s ease 0.7s;
   height: 100%;
 }
 
 .qualification__line5 {
-  transition: all 0.7s ease 2.6s;
+  transition: all 0.7s ease 1.6s;
   height: 100%;
 }
 
