@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/AyushR.jpg";
-import Resume from "../../assets/Ayush_Jha.pdf";
+// import Resume from "../../assets/Ayush_Jha.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -22,8 +22,9 @@ const About = () => {
             experiences.
           </p>
           <a
-            download="Ayush_Jha_Resume.pdf"
-            href={Resume}
+            href="https://drive.google.com/file/d/1Kt5U6DmzAMV6RmsWEm0EAPrk2F0dnyxU/view?usp=drive_link"
+            target="_blank" // open the link in a new tab
+            rel="noopener noreferrer" // recommended for security
             className="button button--flex"
           >
             Download CV
