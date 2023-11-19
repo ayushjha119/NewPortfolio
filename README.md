@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Tech%20Stack-React.js%20%7C%20TailwindCSS%20%7C%20Email.js%20%7C%20TyepScript%20%7C%20Markdown-0288d1.svg" alt="Tech Stack" />
+  <img src="https://img.shields.io/badge/Tech%20Stack-React.js%20%7C%20TailwindCSS%20%7C%20Email.js%20%7C%20TypeScript%20%7C%20Markdown-0288d1.svg" alt="Tech Stack" />
 </p>
 
 
