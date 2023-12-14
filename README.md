@@ -1,3 +1,14 @@
+<h1 align="center">Portfolio 👨🏻‍💻</h1>
+
+<p align="center">
+  <b>Documenting my journey and discovering a world of creativity.</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Tech%20Stack-React.js%20%7C%20TailwindCSS%20%7C%20Email.js%20%7C%20TypeScript%20%7C%20Markdown-0288d1.svg" alt="Tech Stack" />
+</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
