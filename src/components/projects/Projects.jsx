@@ -1,10 +1,11 @@
 import Portfolio from "./Portfolio";
-import Dbus from "../../assets/Dbus.png";
-import Gym from "../../assets/Gym.png";
-import GeeksBlogging from "../../assets/GeeksBlogging.png";
-//import quizHub from "../../assets/quizhub.png";
-import oldPortfolio from "../../assets/portfolioOld.png";
-import newPortfolio from "../../assets/portfolioNew.png";
+import Dbus from "../../assets/Dbus.webp";
+import Gym from "../../assets/Gym.webp";
+import GeeksBlogging from "../../assets/GeeksBlogging.webp";
+
+import oldPortfolio from "../../assets/portfolioOld.webp";
+import newPortfolio from "../../assets/portfolioNew.webp";
+import devOverFlow from "../../assets/DevOverFlow.webp";
 import "./portfolio.css";
 
 const projects = [
@@ -20,6 +21,28 @@ const projects = [
   },
   {
     id: 2,
+    title: "DevOverFlow",
+    description:
+      "Dev Overflow - A problem solving community for developers like Stack Overflow",
+    links: {
+      github: "https://github.com/ayushjha119/DevOverflow",
+      live: "https://dev-overflow-ayush-jhas-projects.vercel.app/",
+    },
+    image: devOverFlow,
+  },
+
+  {
+    id: 3,
+    title: "New Portfolio",
+    description: "My new portfolio website built using React",
+    links: {
+      github: "https://github.com/ayushjha119/NewPortfolio",
+      live: "https://ayushjha.tech/",
+    },
+    image: newPortfolio,
+  },
+  {
+    id: 4,
     title: "Exercise Showcase via API",
     description:
       "Explore a variety of exercises categorized by body part using our API-powered website",
@@ -30,7 +53,7 @@ const projects = [
     image: Gym,
   },
   {
-    id: 3,
+    id: 5,
     title: "Digital-Business-website",
     description:
       "A online platform leveraging React for seamless user interactions, designed to enhance digital business experiences",
@@ -52,7 +75,7 @@ const projects = [
   //     image: quizHub,
   //   },
   {
-    id: 4,
+    id: 6,
     title: "Old Portfolio",
     description: "My old portfolio website",
     links: {
@@ -60,16 +83,6 @@ const projects = [
       live: "https://portfolio-29997.web.app/",
     },
     image: oldPortfolio,
-  },
-  {
-    id: 5,
-    title: "New Portfolio",
-    description: "My new portfolio website built using React",
-    links: {
-      github: "https://github.com/ayushjha119/NewPortfolio",
-      live: "https://ayushjha.tech/",
-    },
-    image: newPortfolio,
   },
 ];
 
