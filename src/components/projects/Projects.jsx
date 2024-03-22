@@ -5,7 +5,7 @@ import GeeksBlogging from "../../assets/GeeksBlogging.webp";
 
 import oldPortfolio from "../../assets/portfolioOld.webp";
 import newPortfolio from "../../assets/portfolioNew.webp";
-import devOverFlow from "../../assets/devOverFlow.webp";
+import devOverFlow from "../../assets/devoverflow.webp";
 import "./portfolio.css";
 
 const projects = [
