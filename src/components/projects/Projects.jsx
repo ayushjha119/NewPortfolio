@@ -5,7 +5,7 @@ import GeeksBlogging from "../../assets/GeeksBlogging.webp";
 
 import oldPortfolio from "../../assets/portfolioOld.webp";
 import newPortfolio from "../../assets/portfolioNew.webp";
-import devOverFlow from "../../assets/DevOverFlow.webp";
+import devOverFlow from "../../assets/devOverFlow.webp";
 import "./portfolio.css";
 
 const projects = [
@@ -21,12 +21,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "DevOverFlow",
+    title: "GeeksBlogging 2.0",
     description:
-      "Dev Overflow - A problem solving community for developers like Stack Overflow",
+      "Sign up to engage with posts, comment, like, and personalize your profile. Enjoy your personal dashboard and the ability to edit your blogs. Admin role, with the privilege to post blogs, is assigned by the platform owner.",
     links: {
-      github: "https://github.com/ayushjha119/DevOverflow",
-      live: "https://dev-overflow-ayush-jhas-projects.vercel.app/",
+      github: "https://github.com/ayushjha119/BLOG-WEBSITE",
+      live: "https://geeksblogging.netlify.app/",
     },
     image: devOverFlow,
   },
